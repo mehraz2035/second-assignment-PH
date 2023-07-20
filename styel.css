@@ -21,14 +21,12 @@
 .nav-bar{
     display: flex;
     background: #FFF;
-    /* border: 2px solid black;  */
     justify-content: space-between;
     padding-left: 150px;
     padding-right: 150px;
     height: 100px;
     position: relative;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-
 }
 .nav-logo{
     display: flex;
@@ -41,7 +39,6 @@
     font-size: 3rem;
     font-weight: 800;
     align-items: center;
-   
 }
 .gamer{
     color:#F144AE;
@@ -66,7 +63,6 @@
     background:  rgba(11, 2, 35, 0.10);
     border-radius: 8px;
     padding-left: 20px;
-
 }
 .nav-manu-logo img{
     margin-right: 20px;
@@ -77,19 +73,14 @@
 /* bannar */
 
 .bannar{
-    /* border: 2px solid black;  */
     padding-left: 150px;
     padding-right: 150px;
     display: flex;
     position: relative;
 }
 .bannar-contain{
-    /* border: 1px solid black; */
     height: 600px;
     width: 50%;
-  
-   
-    
 }
    
 .bannar-dis h2{
@@ -106,32 +97,23 @@
     line-height: normal;
     text-transform: uppercase;
     margin-top: 15px;
-
-
 } 
-
-
 .icon-images{
     display: flex;
     align-items: center;
+    
 }
 .icon-images img{
     width: 20px;
     height: 20px;
     color: #FF42A5;
-    /* padding: 10px; */
+    padding: 10px;
 }
-
 .icon-images p{
     color: #534C64;
     font-size: 15px;
     font-weight: 400;
-    margin-top: 30px;
-    margin-left: -40px;
-    
-    
 }
-
 .Sign-in{
     display: inline-flex;
     padding: 21px 40px;
@@ -144,7 +126,6 @@
     border: none;
     margin-right: 20px;
     margin-top: 25px;
-
 }
 .go-rogue{
     display: inline-flex;
@@ -158,14 +139,10 @@
     border: none;
     margin-top: 25px;
 }
-
 .bannar-images{
-    /* border: 1px solid black; */
     height: 600px;
     width: 50%;
     text-align: right;
-    
-    
 }
 .bannar-carton-images{
     height: 600px;
@@ -177,7 +154,7 @@
 
 
 .Online-Games{
-    padding-top: 70px;
+    margin-top: 100px;
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -199,18 +176,12 @@
     font-size: 18px;
     font-weight: 400;
     padding-top: 30px;
-
 }
-
 .gamer-all-img{
     display: flex;
     justify-content: space-between;
-    /* gap: 30px; 
-    width: fit-content; */
     margin-top: 50px;
     margin-bottom: 70px;
-   
-    
 }
 .gamer-sigal-image img{
     width: 342px;
@@ -228,18 +199,17 @@
 /* Play Games */
 
 .play-games{
-    padding-top: 70px;
+    margin-top: 100px;
     padding-left: 150px;
     padding-right: 150px;
     display: flex;
-    padding-bottom: 70px;
+    margin-bottom: 100px;
 }
 .images-div{
     width: 50%;
     height: 700px;
     display: flex;
 }
-
 .big-images{
     width: 600px;
     height: 600px;
@@ -269,7 +239,7 @@
     font-weight: 700;
     font-size: 60px;
     color: #0B0223;
-    padding-top: 150px;
+    padding-top: 100px;
     
 }
 .play-text{
@@ -283,13 +253,11 @@
     font-size: 60px;
     color: #8758F1;
 }
-
 .text-div p{
     color: #534C64;
     font-size: 22px;
     font-weight: 400;
     margin-top: 30px;
- 
 }
 
 
@@ -300,16 +268,13 @@
     height: 400px;
     padding-left: 150px;
     padding-right: 150px;
-   
 }
 .game-store-contain{
-  
     height: 400px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-
 }
 .box{
     background: #FFF;
@@ -319,17 +284,15 @@
     text-align: center;
     display: flex;
     align-items: center;
-    
-
 }
-.box :hover{
-    border: 1px solid  #FF42A5;
+.box:hover{
+    border: 2px solid  #FF42A5;
+    color: #F144AE;
 }
 .box img{
     height: 65px;
     width: 65px;
     padding: 10px;
-    
 }
 .box p{
     font-size: 20px;
@@ -339,30 +302,23 @@
 /* footer */
 .footer-section{
     background: #0B0223;
-    height: 450px;
-    width: 100%;
+    height: 500px;
     padding-left: 150px;
     padding-right: 150px;
     display: flex;
     justify-content: center;
     padding-top: 80px;
-    /* padding-bottom: 80px; */
 }
-
 .footer-logo{
-    width: 300px;
-    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border:  1px solid white; */
-    
-   
+    margin-left: -40px;
 }
 .footer-logo img{
     width: 80px;
     height: 40px;
-    padding: 10px;
+    padding: 20px;
    
 }
 .footer-logo p{
@@ -378,12 +334,10 @@
 .footer-manu{
     margin-top: 50px;
     color: #FFF;
-    margin-left: -60px;
-    
 }
 .footer-manu ul{
     display: flex;
-    align-items: flex-start;
+    justify-content: center;
     
 }
 .footer-manu li{
@@ -392,40 +346,143 @@
     font-size: 1rem;
     font-weight: 500;
 }
-.icon-images img{
-    margin-top: 30px;
-    margin-right: 50px;
-    
+.footer-icon-images{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.footer-icon-images img{
+    padding-right: 50px;
 }
 
 .footer-terms{
-    color: #FF42A5;
-    margin-top: 50px;
-    margin-left: -110px;
-
+    color:  rgba(255, 255, 255, 0.60);
+    margin-top: 80px;
 }
 .footer-terms ul{
     display: flex;
-    align-items: flex-start;
 }
 .footer-terms li{
     list-style: none;
     margin-right: 30px;
 }
-
 .copy-rigst{
-    color: rgba(255, 255, 255, 0.40);
+    color: rgba(255, 255, 255, 0.60);
     text-align: center;
     padding: 20px;
-    margin-top: 30px;
-    margin-left: -150px;
-    
-
+    margin-top: 15px;
 }
 
 
+/* css-styel-end */
+
+
+
+/* media screen */
+
+
 @media screen and (max-width:576px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-bar {
+        background: #FFF;
+        position: relative;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+        flex-direction: column;
+    }
     
+    .nav-bar ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .nav-logo {
+        margin-left: -70px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .nav-bar ul {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 260px;
+        gap: 20px;
+        margin-left: -60px;
+    }
+    .bannar {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .bannar-carton-images {
+       width:550% ;
+       height: 60%;
+       margin-top: 180px;
+       margin-left: -108px;
+    }
+    .bannar-dis h2 {
+        color: #0B0223;
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 100px;
+        width: 200px;
+        margin-left: -40px;
+    }
+    .bannar-dis h1 {
+        color: #8758F1;
+        font-size: 45px;
+        font-weight: 800;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+    .icon-images {
+        display: flex;
+        align-items: center;
+        width: 300px;
+        margin-left: -50px;
+    }
+    .Sign-in{
+
+        padding: 21px 40px;
+        border-radius: 48px;
+        background: #FF42A5;
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+        text-transform: uppercase;
+        border: none;
+        width: 150px;
+        margin-left: -19px;
+    }
+    .go-rogue {
+        padding: 21px 40px;
+        border-radius: 38px;
+        background: #0ba0d6;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+        border: none;
+        margin-left: -40px;
+        width: 200px;
+    }
+    .bannar-bg{
+        margin-top: 750px;
+        height: 450px;
+        width: 400px;
+        padding: 20px 20px;
+    }
+
 }
 
 
